@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../../assets/Vazir.ttf');
+}
+main{
+    font-family: vazir;
+    background-color: rgb(206, 206, 226);
+}

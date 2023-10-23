@@ -1,0 +1,5 @@
+.vertical-menu{
+    width: 0;
+    transition: 0.5s;
+    transform: translateX(-200px);
+}

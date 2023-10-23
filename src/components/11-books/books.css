@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../../assets/Vazir.ttf');
+}
+.total{
+    font-family: vazir;
+}
+.add-book-container{
+    background-color: rgb(168, 231, 231);
+    border-radius: 10px;
+}
+.add-book-container input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #697a7c;
+    border-radius: 5px;
+}
+.add-book-container input[placeholder]{
+    color: white ;
+}
+.list-container{
+    border-radius: 10px;
+    background-color: rgb(224, 168, 231);
+}
+/* .list-container table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+.btn-book{
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(130, 187, 187);
+}

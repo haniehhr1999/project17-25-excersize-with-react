@@ -1,0 +1,22 @@
+.main-sidebar{
+    background-color: rgb(41, 49, 74);
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    transform: translateX(-300px);
+}
+.main-sidebar-open{
+    transform: translateX(0);
+}
+.main-home{
+    background-color: rgb(109, 121, 155);
+}
+li{
+    transition: 0.5s;
+}
+li:hover{
+    background-color: rgb(109, 121, 155);
+    border-radius: 5000px;
+}
